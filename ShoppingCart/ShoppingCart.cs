@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static ShoppingCart.ShoppingCartItem;
 
-namespace ShoppingCart
+
+namespace ShoppingApp
 {
     
 
     public class ShoppingCart
     {
        private List<ShoppingCartItem> _shoppingItems = new List<ShoppingCartItem>();
-        private double _vat = 0.15;
+        private double _vat = 1.15;
 
         public void AddItem(ShoppingCartItem ShoppingItem)
         {

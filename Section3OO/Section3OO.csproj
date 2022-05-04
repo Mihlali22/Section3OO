@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ShoppingCart\ShoppingCart.csproj" />
+    <ProjectReference Include="..\ShoppingCart\ShoppingApp.csproj" />
   </ItemGroup>
 
 </Project>
